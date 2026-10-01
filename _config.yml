@@ -63,7 +63,7 @@ conference:
   navigation:
     links:
       - name: GeoAI 2026
-        absolute_url: "https://geoaiconference.org/"
+        absolute_url: "https://2026.geoaiconference.org/"
     logo:
       name: GeoAI 2027
       img: "geoai2027-logo.png"  # inside /assets/images/
