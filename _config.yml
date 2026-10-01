@@ -6,7 +6,7 @@ description: |
 preposition: "at"
 
 url: "https://2027.geoaiconference.org"
-baseurl: "/GeoAI2027"
+baseurl: ""
 
 exclude:
   - README.md
