@@ -1,0 +1,71 @@
+/* Custom styles for GeoAI 2027 */
+
+.organisers img {
+  height: 3rem;
+  margin: 0 1rem 1rem;
+}
+
+/* Homepage hero: GeoAI 2027 logo, overriding the theme's w-75 / w-100 */
+.bg-body-tertiary.text-body-primary.rounded h1 img {
+  height: 180px;
+  width: auto !important;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Homepage hero: UCL cover photo at full strength */
+.bg-body-tertiary.text-body-primary.rounded {
+  background-image: url("../images/ucl-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+/* Homepage hero: translucent panel behind the text (adapts to dark mode) */
+.home-panel {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-radius: var(--bs-border-radius-lg);
+  background-color: rgba(var(--bs-body-bg-rgb), 0.45);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+/* Black lines and buttons (white in dark mode via --bs-emphasis-color) */
+hr {
+  color: var(--bs-emphasis-color);
+  opacity: 1;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-emphasis-color);
+  --bs-btn-border-color: var(--bs-emphasis-color);
+  --bs-btn-hover-color: var(--bs-body-bg);
+  --bs-btn-hover-bg: var(--bs-emphasis-color);
+  --bs-btn-hover-border-color: var(--bs-emphasis-color);
+  --bs-btn-active-color: var(--bs-body-bg);
+  --bs-btn-active-bg: var(--bs-emphasis-color);
+  --bs-btn-active-border-color: var(--bs-emphasis-color);
+  --bs-btn-disabled-color: var(--bs-emphasis-color);
+  --bs-btn-disabled-border-color: var(--bs-emphasis-color);
+  --bs-btn-disabled-opacity: 1;
+  --bs-btn-focus-shadow-rgb: var(--bs-emphasis-color-rgb);
+}
+
+.btn-lg {
+  --bs-btn-padding-y: 0.35rem;
+  --bs-btn-padding-x: 0.9rem;
+}
+
+/* Navbar logo: the theme doesn't size it, so cap it to the navbar height */
+.navbar-logo img {
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* Homepage hero: bolder lead text (Bootstrap default is 300) */
+.home-panel .lead {
+  font-weight: 500;
+}

@@ -1,0 +1,75 @@
+title: GeoAI 2027
+description: |
+  **SpaceTimeAI: Bringing Time into GeoAI**
+
+  29 June - 2 July 2027 · UCL, London
+preposition: "at"
+
+exclude:
+  - README.md
+  - UPGRADE_GUIDE.md
+  - LICENSE.md
+  - screenshot.png
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - node_modules/
+  - vendor/
+  - _tools/
+  - _js/
+  - _css/
+  - jekyll-theme-conference.gemspec
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: true
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+conference:
+  lang: en
+  tz: "+01:00"  # BST
+
+  # No program, talks, speakers or rooms yet: hide the theme's setup warnings
+  show_errors: false
+
+  navigation:
+    links:
+      - name: GeoAI 2026
+        absolute_url: "https://geoaiconference.org/"
+    logo:
+      name: GeoAI 2027
+      img: "geoai2027-logo.png"  # inside /assets/images/
+      url: "/"
+
+  meta:
+    schema_org:
+      event_status: "scheduled"
+      event_attendance_mode: "offline"
+      organizer:
+        name: "University College London"
+        url: "https://www.ucl.ac.uk/"
