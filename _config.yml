@@ -5,6 +5,9 @@ description: |
   29 June - 2 July 2027 · UCL, London
 preposition: "at"
 
+url: "https://spacetimelab.github.io"
+baseurl: "/GeoAI2027"
+
 exclude:
   - README.md
   - UPGRADE_GUIDE.md
@@ -64,7 +67,7 @@ conference:
     logo:
       name: GeoAI 2027
       img: "geoai2027-logo.png"  # inside /assets/images/
-      url: "/"
+      url: "/GeoAI2027/"  # navbar logo URL is used as-is (baseurl not added)
 
   meta:
     schema_org:
