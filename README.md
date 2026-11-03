@@ -1,5 +1,13 @@
 # jekyll-theme-conference
 
+## Running
+
+```zsh
+bundle install                 # first time only: Ruby gems
+npm ci && npm run build        # JS/CSS bundles (needed once, and after changing _js/ or _css/)
+bundle exec jekyll serve --livereload
+```
+
 ![Screenshot](screenshot.png)
 
 This is a responsive [Jekyll](http://jekyllrb.com) theme based on [Bootstrap 5](http://getbootstrap.com) for conferences. It contains

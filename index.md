@@ -3,9 +3,8 @@ layout: home
 header:
   img: "geoai2027-logo.png"  # inside /assets/images/
 links:
-  - name: Call for Papers (coming soon)
-    disabled: true
-    absolute_url: ''
+  - name: Call for Papers
+    relative_url: /call-for-papers/
   - name: Registration (coming soon)
     disabled: true
     absolute_url: ''
@@ -14,7 +13,7 @@ links:
 
 **GeoAI 2027** will take place from **29 June to 2 July 2027** at **University College London (UCL)**, in the heart of London.
 
-This edition's theme, **SpaceTimeAI: Bringing Time into GeoAI**, puts the temporal dimension at the centre of geospatial artificial intelligence. The call for papers, registration, programme and venue details will be announced here soon.
+This edition's theme, **SpaceTimeAI: Bringing Time into GeoAI**, puts the temporal dimension at the centre of geospatial artificial intelligence. The [call for papers](/call-for-papers/) is now available. Registration, programme and venue details will be announced here soon.
 
 <div class="organisers mt-4">
   <p class="text-body-secondary mb-2">Organised by</p>

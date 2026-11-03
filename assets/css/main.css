@@ -1,16 +1,185 @@
 /* Custom styles for GeoAI 2027 */
 
-.organisers img {
-  height: 3rem;
-  margin: 0 1rem 1rem;
+/* Headings font: IBM Plex Mono (SIL OFL, see webfonts/IBM-Plex-Mono-OFL.txt) */
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../webfonts/ibm-plex-mono-500.woff2") format("woff2");
 }
 
-/* Homepage hero: GeoAI 2027 logo, overriding the theme's w-75 / w-100 */
-.bg-body-tertiary.text-body-primary.rounded h1 img {
-  height: 180px;
-  width: auto !important;
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../webfonts/ibm-plex-mono-700.woff2") format("woff2");
+}
+
+/* Palette: muted greys plus UCL bright purple as the single accent */
+:root,
+[data-bs-theme="light"] {
+  --geoai-accent: #993bff;
+  --geoai-accent-rgb: 153, 59, 255;
+  --geoai-accent-hover: #7a2ed6;
+  --geoai-surface: #ececec;
+  --geoai-rule: #dcdcdc;
+  --geoai-mono: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --bs-body-line-height: 1.55;
+  --bs-body-color: #262a2e;
+  --bs-secondary-color: rgba(38, 42, 46, 0.65);
+  --bs-link-color: var(--geoai-accent);
+  --bs-link-color-rgb: var(--geoai-accent-rgb);
+  --bs-link-hover-color: var(--geoai-accent-hover);
+  --bs-link-hover-color-rgb: 122, 46, 214;
+  --bs-border-color: var(--geoai-rule);
+  --bs-border-radius: 0.125rem;
+  --bs-border-radius-sm: 0.125rem;
+  --bs-border-radius-lg: 0.25rem;
+}
+
+[data-bs-theme="dark"] {
+  /* Lighter tint of UCL purple: #993bff is too dark to read on this background */
+  --geoai-accent: #b47aff;
+  --geoai-accent-rgb: 180, 122, 255;
+  --geoai-accent-hover: #c49bff;
+  --geoai-surface: #26292d;
+  --geoai-rule: #3a3e43;
+
+  --bs-body-bg: #1b1d20;
+  --bs-body-bg-rgb: 27, 29, 32;
+  --bs-body-color: #d9dcdf;
+  --bs-secondary-color: rgba(217, 220, 223, 0.7);
+  --bs-link-color: var(--geoai-accent);
+  --bs-link-color-rgb: var(--geoai-accent-rgb);
+  --bs-link-hover-color: var(--geoai-accent-hover);
+  --bs-link-hover-color-rgb: 196, 155, 255;
+  --bs-border-color: var(--geoai-rule);
+}
+
+/* Narrower page: cap Bootstrap's widest container (1320px) at 1140px */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Links: underline only on hover */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings: monospace, uppercase for page and section titles */
+h1, h2, h3, h4,
+.navbar-brand {
+  font-family: var(--geoai-mono);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1, h2,
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+main h1.display-5 {
+  font-size: calc(1.6rem + 1.5vw);
+  font-weight: 700;
+  margin: 1.5rem 0 1.5rem;
+}
+
+main h2 {
+  font-size: 1.35rem;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--geoai-rule);
+}
+
+main h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+main .lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+main li + li {
+  margin-top: 0.3rem;
+}
+
+/* Navbar: flat muted grey, quieter links */
+.navbar.bg-body-tertiary {
+  background-color: var(--geoai-surface) !important;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+}
+
+.navbar .nav-link {
+  color: var(--bs-secondary-color);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--bs-emphasis-color);
+  text-decoration: none;
+}
+
+/* Navbar logo: the theme doesn't size it, so cap it to the navbar height */
+.navbar-logo img {
+  height: 60px;
+  width: auto;
   max-width: 100%;
-  object-fit: contain;
+}
+
+/* Tables: no heavy header rule, compact rows */
+main .table {
+  --bs-table-bg: transparent;
+  border-color: var(--geoai-rule);
+}
+
+main .table > thead th {
+  font-weight: 600;
+  border-bottom-width: 1px;
+}
+
+hr {
+  color: var(--geoai-rule);
+  opacity: 1;
+}
+
+/* Buttons: accent outline, filled on hover */
+.btn-outline-primary {
+  --bs-btn-color: var(--geoai-accent);
+  --bs-btn-border-color: var(--geoai-accent);
+  --bs-btn-hover-color: var(--bs-body-bg);
+  --bs-btn-hover-bg: var(--geoai-accent);
+  --bs-btn-hover-border-color: var(--geoai-accent);
+  --bs-btn-active-color: var(--bs-body-bg);
+  --bs-btn-active-bg: var(--geoai-accent);
+  --bs-btn-active-border-color: var(--geoai-accent);
+  --bs-btn-disabled-color: var(--bs-secondary-color);
+  --bs-btn-disabled-border-color: var(--geoai-rule);
+  --bs-btn-disabled-opacity: 1;
+  --bs-btn-focus-shadow-rgb: var(--geoai-accent-rgb);
+}
+
+.btn-lg {
+  --bs-btn-padding-y: 0.4rem;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-font-size: 1.05rem;
 }
 
 /* Homepage hero: UCL cover photo at full strength */
@@ -21,51 +190,35 @@
   text-align: center;
 }
 
+/* Homepage hero: GeoAI 2027 logo, overriding the theme's w-75 / w-100 */
+.bg-body-tertiary.text-body-primary.rounded h1 img {
+  height: 180px;
+  width: auto !important;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 /* Homepage hero: translucent panel behind the text (adapts to dark mode) */
 .home-panel {
-  max-width: 50rem;
+  max-width: 46rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
   border-radius: var(--bs-border-radius-lg);
-  background-color: rgba(var(--bs-body-bg-rgb), 0.45);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  background-color: rgba(var(--bs-body-bg-rgb), 0.82);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
 }
 
-/* Black lines and buttons (white in dark mode via --bs-emphasis-color) */
-hr {
-  color: var(--bs-emphasis-color);
-  opacity: 1;
-}
-
-.btn-outline-primary {
-  --bs-btn-color: var(--bs-emphasis-color);
-  --bs-btn-border-color: var(--bs-emphasis-color);
-  --bs-btn-hover-color: var(--bs-body-bg);
-  --bs-btn-hover-bg: var(--bs-emphasis-color);
-  --bs-btn-hover-border-color: var(--bs-emphasis-color);
-  --bs-btn-active-color: var(--bs-body-bg);
-  --bs-btn-active-bg: var(--bs-emphasis-color);
-  --bs-btn-active-border-color: var(--bs-emphasis-color);
-  --bs-btn-disabled-color: var(--bs-emphasis-color);
-  --bs-btn-disabled-border-color: var(--bs-emphasis-color);
-  --bs-btn-disabled-opacity: 1;
-  --bs-btn-focus-shadow-rgb: var(--bs-emphasis-color-rgb);
-}
-
-.btn-lg {
-  --bs-btn-padding-y: 0.35rem;
-  --bs-btn-padding-x: 0.9rem;
-}
-
-/* Navbar logo: the theme doesn't size it, so cap it to the navbar height */
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-  max-width: 100%;
-}
-
-/* Homepage hero: bolder lead text (Bootstrap default is 300) */
 .home-panel .lead {
   font-weight: 500;
+}
+
+.home-panel .lead strong {
+  font-family: var(--geoai-mono);
+  text-transform: uppercase;
+}
+
+.organisers img {
+  height: 3rem;
+  margin: 0 1rem 1rem;
 }

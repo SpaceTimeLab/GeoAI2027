@@ -62,6 +62,8 @@ conference:
 
   navigation:
     links:
+      - name: Call for Papers
+        relative_url: /call-for-papers/
       - name: GeoAI 2026
         absolute_url: "https://2026.geoaiconference.org/"
     logo:
