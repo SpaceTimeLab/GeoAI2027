@@ -76,7 +76,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Headings: monospace, uppercase for page and section titles */
+/* Headings: monospace, preserving the capitalization in the content */
 h1, h2, h3, h4,
 .navbar-brand {
   font-family: var(--geoai-mono);
@@ -86,7 +86,7 @@ h1, h2, h3, h4,
 
 h1, h2,
 .navbar-brand {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 main h1.display-5 {
@@ -148,6 +148,12 @@ main li + li {
 main .table {
   --bs-table-bg: transparent;
   border-color: var(--geoai-rule);
+}
+
+main .important-dates > :not(caption) > * > * {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  vertical-align: middle;
 }
 
 main .table > thead th {
@@ -215,7 +221,7 @@ hr {
 
 .home-panel .lead strong {
   font-family: var(--geoai-mono);
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .organisers img {

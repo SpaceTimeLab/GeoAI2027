@@ -53,14 +53,14 @@ Topics of interest include, but are not limited to:
 All deadlines are 23:59 [Anywhere on Earth](https://time.is/Anywhere_on_Earth) (UTC−12).
 
 | Milestone | Date | Countdown |
-|---|---|---|
+|---|:---:|:---:|
 | Workshop and tutorial proposals | <time datetime="2027-01-08T23:59:00-12:00">8 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
 | Extended abstracts and published-article summaries | <time datetime="2027-01-22T23:59:00-12:00">22 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
 | Notification of acceptance | <time datetime="2027-03-01T23:59:00-12:00">1 March 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
 | Early-bird registration | <time datetime="2027-04-02T23:59:00-12:00">2 April 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
 | Registration closes | <time datetime="2027-06-07T23:59:00-12:00">7 June 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Conference | 29 June – 2 July 2027 | — |
-{: .table .w-auto }
+| Conference | 29 June – 2 July 2027 | 📍 See you in London |
+{: .table .w-auto .important-dates }
 
 ## How to submit
 
