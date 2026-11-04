@@ -90,14 +90,14 @@ GeoAI 2027 invites proposals for half-day workshops and tutorials, held on the p
 
 All deadlines are 23:59 [Anywhere on Earth](https://time.is/Anywhere_on_Earth) (UTC−12).
 
-| Milestone | Date |
-|---|---|
-| Workshop and tutorial proposals | 8 January 2027 |
-| Extended abstracts and published-article summaries | 22 January 2027 |
-| Notification of acceptance | 1 March 2027 |
-| Early-bird registration | 2 April 2027 |
-| Registration closes | 7 June 2027 |
-| Conference | 29 June – 2 July 2027 |
+| Milestone | Date | Countdown |
+|---|---|---|
+| Workshop and tutorial proposals | <time datetime="2027-01-08T23:59:00-12:00">8 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Extended abstracts and published-article summaries | <time datetime="2027-01-22T23:59:00-12:00">22 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Notification of acceptance | <time datetime="2027-03-01T23:59:00-12:00">1 March 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Early-bird registration | <time datetime="2027-04-02T23:59:00-12:00">2 April 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Registration closes | <time datetime="2027-06-07T23:59:00-12:00">7 June 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Conference | 29 June – 2 July 2027 | — |
 {: .table .w-auto }
 
 ## Publication
