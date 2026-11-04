@@ -11,10 +11,10 @@ contact_email: ""     # TODO: conference contact address
 {% capture email %}{% if page.contact_email != "" %}[{{ page.contact_email }}](mailto:{{ page.contact_email }}){% else %}the organising committee (address coming soon){% endif %}{% endcapture %}
 
 <p class="lead">
-  GeoAI 2027 invites submissions on all aspects of geospatial artificial intelligence, with a particular focus on this year's theme, <strong>SpaceTimeAI: Bringing Time into GeoAI</strong>.
+  GeoAI 2027 invites submissions on all aspects of geospatial artificial intelligence, with a particular focus on this year's theme.
 </p>
 
-## Theme
+## <span style="color:#b47aff">*Theme*</span> SpaceTimeAI: Bringing Time into GeoAI
 
 Geospatial Artificial Intelligence (GeoAI), originally grounded in GIScience, Computer Science and related fields, is an emerging discipline that aims to enable machines to learn, reason and analyse geospatial data in ways similar to humans, and sometimes beyond human capabilities. It integrates geographic knowledge and methods with AI to address geographic problems and beyond.
 
@@ -47,6 +47,20 @@ Topics of interest include, but are not limited to:
 - Reproducibility, open science, education and training in GeoAI
 - Sustainability issues of GeoAI
 - Applications of GeoAI and SpaceTimeAI
+
+## Important dates
+
+All deadlines are 23:59 [Anywhere on Earth](https://time.is/Anywhere_on_Earth) (UTC−12).
+
+| Milestone | Date | Countdown |
+|---|---|---|
+| Workshop and tutorial proposals | <time datetime="2027-01-08T23:59:00-12:00">8 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Extended abstracts and published-article summaries | <time datetime="2027-01-22T23:59:00-12:00">22 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Notification of acceptance | <time datetime="2027-03-01T23:59:00-12:00">1 March 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Early-bird registration | <time datetime="2027-04-02T23:59:00-12:00">2 April 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Registration closes | <time datetime="2027-06-07T23:59:00-12:00">7 June 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
+| Conference | 29 June – 2 July 2027 | — |
+{: .table .w-auto }
 
 ## How to submit
 
@@ -85,20 +99,6 @@ GeoAI 2027 invites proposals for half-day workshops and tutorials, held on the p
 - **Review:** by the Workshop and Tutorial Chair and the Organising Committee.
 - **Outcome:** accepted workshops and tutorials are announced on the conference website. Organisers run their own sessions, including any call for contributions.
 - **Submission:** by email to {{ email }}.
-
-## Important dates
-
-All deadlines are 23:59 [Anywhere on Earth](https://time.is/Anywhere_on_Earth) (UTC−12).
-
-| Milestone | Date | Countdown |
-|---|---|---|
-| Workshop and tutorial proposals | <time datetime="2027-01-08T23:59:00-12:00">8 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Extended abstracts and published-article summaries | <time datetime="2027-01-22T23:59:00-12:00">22 January 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Notification of acceptance | <time datetime="2027-03-01T23:59:00-12:00">1 March 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Early-bird registration | <time datetime="2027-04-02T23:59:00-12:00">2 April 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Registration closes | <time datetime="2027-06-07T23:59:00-12:00">7 June 2027</time> | <small class="text-body-secondary text-nowrap font-monospace" data-cfp-countdown></small> |
-| Conference | 29 June – 2 July 2027 | — |
-{: .table .w-auto }
 
 ## Publication
 

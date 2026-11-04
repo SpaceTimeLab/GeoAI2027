@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  img: "geoai2027-logo.png"  # inside /assets/images/
+  img: "geoai2027-logo-transparent.png"  # inside /assets/images/
 links:
   - name: Call for Papers
     relative_url: /call-for-papers/

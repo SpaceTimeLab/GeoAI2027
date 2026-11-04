@@ -40,6 +40,10 @@
   {% comment %} User stylesheet (can include full custom conference bundle) {% endcomment %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?t={{ site.time | date: '%s' }}" />
 
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any" />
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png" />
+
   {% include list_header_live.html %}
 
   {% include list_header_pwa.html %}

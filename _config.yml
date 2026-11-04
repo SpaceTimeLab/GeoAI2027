@@ -68,7 +68,7 @@ conference:
         absolute_url: "https://2026.geoaiconference.org/"
     logo:
       name: GeoAI 2027
-      img: "geoai2027-logo.png"  # inside /assets/images/
+      img: "geoai2027-logo-transparent.png"  # inside /assets/images/
       url: "/"  # navbar logo URL is used as-is (baseurl not added)
 
   meta:
