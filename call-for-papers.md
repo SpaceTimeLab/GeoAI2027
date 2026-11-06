@@ -41,7 +41,7 @@ Topics of interest include, but are not limited to:
 - Geospatial world models
 - Extrapolation and forecasting of spatiotemporal data
 - Bayesian and statistical geospatial machine learning
-- Methods for polygon and tabular data
+- Methods for vector and tabular data
 - Agentic GeoAI
 - Reproducibility, open science, education and training in GeoAI
 - Sustainability and low-resource methods for GeoAI
