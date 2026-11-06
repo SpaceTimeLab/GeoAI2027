@@ -26,26 +26,25 @@ GeoAI 2027 provides a platform to showcase the latest advances in GeoFoundation 
 
 Topics of interest include, but are not limited to:
 
-- Foundations and nature of GeoAI and SpaceTimeAI
+- Theoretical foundations of GeoAI and SpaceTimeAI
 - AI architectures for spatiotemporal data
-- Representations and embeddings of spatiotemporal data in GeoAI and SpaceTimeAI
-- Spatially and temporally explicit AI
+- Representation learning for spatiotemporal data
+- Spatially and temporally explicit methods
 - Neuro-symbolic GeoAI
-- Geographic knowledge graphs for GeoAI
+- Geographic knowledge graphs
 - Explainable, trustworthy, transparent and responsible GeoAI
 - Ethics, fairness and bias in GeoAI
-- GeoAI for real-time geospatial and spatiotemporal data streams (e.g. IoT, sensors, mobility)
+- GeoAI for real-time geospatial and spatiotemporal data streams (e.g. IoT, sensors, mobility) and continual learning
 - GeoAI benchmarking and evaluation
 - Geospatial and spatiotemporal foundation models
-- Multimodal GeoAI and SpaceTimeAI
-- Large language models (LLMs) and GeoAI
-- Vision-language models (VLMs) for GeoAI
-- NLP and computer vision for GeoAI
-- World models and GeoAI
-- Generative GeoAI
+- LLMs, VLMs, and multimodal models for GeoAI
+- Geospatial world models
+- Extrapolation and forecasting of spatiotemporal data
+- Bayesian and statistical geospatial machine learning
+- Methods for polygon and tabular data
 - Agentic GeoAI
 - Reproducibility, open science, education and training in GeoAI
-- Sustainability issues of GeoAI
+- Sustainability and low-resource methods for GeoAI
 - Applications of GeoAI and SpaceTimeAI
 
 ## Important dates
@@ -76,7 +75,11 @@ All deadlines are 23:59 [Anywhere on Earth](https://time.is/Anywhere_on_Earth) (
 
 ### Templates
 
+Templates will be shared in December 2026.
+
+{% comment %}
 Download the template in [Word]({{ '/assets/templates/GeoAI2027_Word_template.docx' | relative_url }}) or [LaTeX]({{ '/assets/templates/GeoAI2027_LaTeX_template.zip' | relative_url }}) format. If your abstract is accepted, edit the first-page footnote in the camera-ready version to keep either "Oral Presentation Papers" or "Poster Papers", matching your presentation type.
+{% endcomment %}
 
 ### Published-article track
 
@@ -87,7 +90,11 @@ Authors can present a full paper published in a peer-reviewed journal or confere
 
 ### Industry presentations
 
-Companies and organisations are invited to present their GeoAI solutions. Please contact {{ email }} with a short description of the proposed talk or demo. Sponsorship of the conference is highly recommended.
+Companies and organisations are invited to present their GeoAI solutions. Please contact {{ email }} with a short description of the proposed talk or demo.
+
+{% comment %}
+Sponsorship of the conference is highly recommended.
+{% endcomment %}
 
 ### Workshop and tutorial proposals
 
