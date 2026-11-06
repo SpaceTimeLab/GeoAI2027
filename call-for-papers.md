@@ -44,7 +44,7 @@ Topics of interest include, but are not limited to:
 - Methods for vector and tabular data
 - Agentic GeoAI
 - Reproducibility, open science, education and training in GeoAI
-- Sustainability and low-resource methods for GeoAI
+- Sustainable and low-resource methods for GeoAI
 - Applications of GeoAI and SpaceTimeAI
 
 ## Important dates
